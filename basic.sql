@@ -22,3 +22,10 @@ INSERT INTO student (name, age) VALUES
 
 SELECT * FROM student
 WHERE age>23;
+
+SELECT * FROM student
+WHERE id=1;
+
+UPDATE student
+SET age=age+1
+WHERE id=1
