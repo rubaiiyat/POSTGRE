@@ -1,0 +1,8 @@
+-- Active: 1790431150526@@127.0.0.1@5432@my_db
+
+CREATE Table student(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
