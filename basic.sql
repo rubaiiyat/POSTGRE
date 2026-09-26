@@ -29,3 +29,6 @@ WHERE id=1;
 UPDATE student
 SET age=age+1
 WHERE id=1
+
+DELETE FROM student
+where id=1;
